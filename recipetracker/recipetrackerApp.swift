@@ -1,17 +1,12 @@
-//
-//  recipetrackerApp.swift
-//  recipetracker
-//
-//  Created by Campbell Wang on 2023-05-02.
-//
 
 import SwiftUI
 
 @main
 struct recipetrackerApp: App {
+    @StateObject var recipeVM = RecipeViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(recipeVM)
         }
     }
 }
