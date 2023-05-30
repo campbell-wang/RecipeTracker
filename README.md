@@ -3,6 +3,7 @@ A recipe tracker app that allows users to store their favourite recipes, as well
 
 ## To-do
 - feat(app): Allow users to choose a photo from camera roll as recipe picture
+- feat(app): Allow users to add a recipe to favourites
 
 ## Screenshots
 
